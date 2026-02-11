@@ -120,7 +120,7 @@
       this.score        = 0;
       this.timeToDown   = 1000;
       this.harding      = 1000;
-      this.decrementTTD = 50;
+      this.decrementTTD = 15;
 
       this.isRunning = false;
       this.isPaused  = false;
