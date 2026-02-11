@@ -276,6 +276,7 @@
       this._spawnNewPiece();
       this.canStore    = true;
       this.accumulator = 0;
+      if (!this._canSpawn()) this._gameOver();
     }
 
     _rotatePiece(direction) {
